@@ -17,7 +17,14 @@ public class Sort {
 
         //2选择
         select(arr);
+        
+        //3.插入
+        insert(arr);
     }
+
+    private static void insert(int[] arr) {
+    }
+
     /*
      * @MethodName: select
      * @Description: TODO
