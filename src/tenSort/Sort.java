@@ -13,7 +13,21 @@ public class Sort {
     public static void main(String[] args) {
         //1冒泡
         int[] arr={4,6,1,3,2,5,9,8,7,0};
-        Bubble(arr);
+        bubble(arr);
+
+        //2选择
+        select(arr);
+    }
+    /*
+     * @MethodName: select
+     * @Description: TODO
+     * @Param: [arr]
+     * @Return: void
+     * @Author: Thinkpad
+     * @Date: 2019/10/30
+     **/
+    private static void select(int[] arr) {
+
     }
 
 
@@ -25,7 +39,7 @@ public class Sort {
      * @Author: Thinkpad
      * @Date: 2019/10/30
      **/
-    private static void Bubble(int[] arr) {
+    private static void bubble(int[] arr) {
         for (int i = 0; i <arr.length-1 ; i++) {
             for (int j = 0; j <arr.length-i-1 ; j++) {
                 if (arr[j]>arr[j+1]){
