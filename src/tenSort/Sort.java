@@ -17,7 +17,20 @@ public class Sort {
 
         //2选择
         select(arr);
+        
+        //3.插入
+        insert(arr);
+        
+        //4.二分插入
+        binaryInsert(arr);
     }
+
+    private static void binaryInsert(int[] arr) {
+    }
+
+    private static void insert(int[] arr) {
+    }
+
     /*
      * @MethodName: select
      * @Description: TODO
